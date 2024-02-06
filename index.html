@@ -153,13 +153,13 @@
                 use and embed Bots on your site.
               </p>
 
-              <!-- <ul class="actions">
+              <ul class="actions">
                 <li>
-                  <a href="generic.html" class="button"
-                    >Click Here to View Dossier</a
+                  <a href="mstrbot.html" class="button"
+                    >Click Here to View Bot</a
                   >
                 </li>
-              </ul> -->
+              </ul>
             </div>
             <img class="image" /><img
               src="images/bot.png"
@@ -202,47 +202,7 @@
             />
           </div>
         </section>
-    <!-- Chatbot container -->
-    <div id="chatbot-container", style="display: none; height: 600px; position: relative; overflow: hidden; float: right; " >
-      <!-- Content of the chatbot goes here -->
-      <div id="chatbot-header" style="background-color: #4CAF50; color: white; padding: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;">
-          Chatbot Title
-      </div>
-      <div id="chatbot-content" style="padding: 10px;">
-          <!-- Chatbot content goes here -->
-          This is the chatbot content.
-      </div>
-	</div>
-
-  <!-- Chatbot toggle button/icon -->
-  <button id="chatbot-toggle" onclick="toggleChatbot()"> </button>
-
-  <script type="text/javascript">
-      document.addEventListener("DOMContentLoaded", function(){
-          var container = document.getElementById("chatbot-container");
-
-          // Function to toggle the chatbot visibility
-          function toggleChatbot() {
-              if (container.style.display === "none") {
-                  container.style.display = "block";
-                  // Initialize the chatbot when shown
-                  microstrategy.dossier.create({
-                      url: "https://autotrial.microstrategy.com/MicroStrategyLibrary/app/205BABE083484404399FBBA37BAA874A/95B60A8BB94C4EDA5B906EA8AF84C211",
-                      
-                      enableResponsive: true,
-                      placeholder: container,
-                      enableCollaboration: false,                      
-                      // ... (other configuration options)
-                  });
-              } else {
-                  container.style.display = "none";
-              }
-          }
-
-          // Attach the toggleChatbot function to the button click event
-          document.getElementById("chatbot-toggle").addEventListener("click", toggleChatbot);
-      });
-  </script>    
+        
 
 
       <!-- Footer -->
